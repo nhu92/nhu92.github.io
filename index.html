@@ -1,147 +1,94 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>John Doe, PhD | Researcher</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        font-size: 16px;
-        line-height: 1.5;
-        margin: 0;
-        padding: 0;
-      }
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YOUR NAME – Research</title>
+  <meta name="description" content="YOUR NAME – Researcher in FIELD at INSTITUTION. Interests: X, Y, Z." />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta property="og:title" content="YOUR NAME – Research" />
+  <meta property="og:description" content="Researcher in FIELD at INSTITUTION." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourname.github.io/" />
+  <meta property="og:image" content="https://yourname.github.io/images/profile.jpg" />
+  <link rel="preload" href="/assets/styles.css" as="style" />
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <script defer src="/assets/scripts.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"YOUR NAME",
+    "jobTitle":"YOUR TITLE",
+    "affiliation": {"@type":"Organization","name":"YOUR INSTITUTION"},
+    "url":"https://yourname.github.io/",
+    "sameAs":["https://scholar.google.com/citations?user=YOURID","https://orcid.org/0000-0000-0000-0000","https://www.linkedin.com/in/YOUR/","https://github.com/YOUR"],
+    "email":"mailto:you@university.edu"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header container">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="/">YOUR NAME</a>
+      <button class="nav-toggle" aria-controls="menu" aria-expanded="false">☰</button>
+      <ul id="menu" class="menu">
+        <li><a href="/publications.html">Publications</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/cv.html">CV</a></li>
+        <li><button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌓</button></li>
+      </ul>
+    </nav>
+  </header>
 
-      header {
-        background-color: #333;
-        color: #fff;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-      }
+  <main id="main" class="container grid">
+    <section class="card hero">
+      <img class="avatar" src="/images/profile.jpg" alt="Portrait of YOUR NAME" width="160" height="160" />
+      <div>
+        <h1>YOUR NAME</h1>
+        <p class="lead">YOUR TITLE @ <a href="https://YOUR-INSTITUTION.edu">YOUR INSTITUTION</a>. I study <strong>keywords</strong> like A, B, and C. My group builds open tools for X and applies them to Y.</p>
+        <p>
+          <a class="button" href="/cv.html">View CV</a>
+          <a class="button ghost" href="/publications.html">Recent publications</a>
+        </p>
+      </div>
+    </section>
 
-      h1 {
-        font-size: 36px;
-        margin: 0;
-      }
+    <section class="card">
+      <h2>News</h2>
+      <ul class="news" id="news">
+        <li><time datetime="2025-08-01">Aug 1, 2025</time> Our preprint on ABC is now on bioRxiv.</li>
+        <li><time datetime="2025-06-12">Jun 12, 2025</time> Talk at XYZ Conference — slides and code released.</li>
+        <li><time datetime="2025-05-07">May 7, 2025</time> New grant on DEF funded; hiring students!</li>
+      </ul>
+    </section>
 
-      h2 {
-        font-size: 24px;
-        margin: 0;
-      }
+    <section class="card">
+      <h2>Selected Publications</h2>
+      <ol id="pubs" class="pubs"></ol>
+      <p><a class="inline" href="/publications.html">All publications →</a></p>
+    </section>
 
-      nav ul {
-        display: flex;
-        margin: 0;
-        padding: 0;
-      }
+    <section class="card">
+      <h2>Contact</h2>
+      <address>
+        Department of Something, YOUR INSTITUTION<br>
+        City, ST, Country · <a href="mailto:you@university.edu">you@university.edu</a>
+      </address>
+      <p class="social">
+        <a href="https://scholar.google.com/citations?user=YOURID" aria-label="Google Scholar">Scholar</a>
+        <a href="https://orcid.org/0000-0000-0000-0000" aria-label="ORCID">ORCID</a>
+        <a href="https://github.com/YOUR" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/YOUR/" aria-label="LinkedIn">LinkedIn</a>
+      </p>
+    </section>
+  </main>
 
-      nav li {
-        margin: 0 10px;
-        list-style: none;
-      }
-
-      nav a {
-        color: #fff;
-        text-decoration: none;
-      }
-
-      nav a:hover {
-        color: #ccc;
-      }
-
-      main {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-      }
-
-      section {
-        margin: 40px 0;
-      }
-
-      section h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
-      }
-
-      section h3 {
-        font-size: 20px;
-        margin-bottom: 10px;
-      }
-
-      section ul {
-        margin: 0;
-        padding: 0;
-      }
-
-      section li {
-        margin: 10px 0;
-      }
-
-      footer {
-        background-color: #ccc;
-        padding: 10px;
-        text-align: center;
-      }
-
-      footer p {
-        margin: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Nan Hu, PhD</h1>
-      <h2>Researcher | Texas Tech University</h2>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#research">Research</a></li>
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="about">
-        <h2>About Me</h2>
-        <p>I am a PhD in Biology from Texas Tech University. My research interests include...</p>
-      </section>
-      <section id="research">
-        <h2>Research</h2>
-        <h3>Current Projects</h3>
-        <ul>
-          <li>Project 1</li>
-          <li>Project 2</li>
-          <li>Project 3</li>
-        </ul>
-        <h3>Past Projects</h3>
-        <ul>
-          <li>Project 1</li>
-          <li>Project 2</li>
-          <li>Project 3</li>
-        </ul>
-      </section>
-      <section id="publications">
-        <h2>Publications</h2>
-        <ul>
-          <li>Publication 1</li>
-          <li>Publication 2</li>
-          <li>Publication 3</li>
-        </ul>
-      </section>
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <p>You can reach me at:</p>
-        <ul>
-          <li>Email: nan.hu@ttu.edu</li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2023 Nan Hu</p>
-    </footer>
-  </body>
+  <footer class="site-footer container">
+    <small>© <span id="year"></span> YOUR NAME · Built with HTML/CSS/JS · <a href="https://github.com/YOUR/yourname.github.io">Source</a></small>
+  </footer>
+</body>
 </html>
