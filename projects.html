@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Projects – YOUR NAME</title>
+  <title>Projects – Nan Hu</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/assets/styles.css" />
   <script defer src="/assets/scripts.js"></script>
@@ -11,12 +11,12 @@
 <body>
   <header class="site-header container">
     <nav class="nav" aria-label="Primary">
-      <a class="brand" href="/">YOUR NAME</a>
+      <a class="brand" href="/">Nan Hu</a>
       <ul class="menu">
         <li><a href="/publications.html">Publications</a></li>
         <li><a aria-current="page" href="/projects.html">Projects</a></li>
         <li><a href="/cv.html">CV</a></li>
-        <li><button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌓</button></li>
+        <li><button id="themeToggle" class="theme-toggle" aria-label="Toggle theme"></button></li>
       </ul>
     </nav>
   </header>
@@ -24,21 +24,29 @@
   <main class="container">
     <h1>Projects</h1>
     <div class="grid">
+      <!-- HiCassembly project card -->
       <article class="card">
-        <h2><a href="https://github.com/YOUR/PROJECT1">PROJECT 1</a></h2>
-        <p>One‑sentence description of what it does and why it matters.</p>
-        <ul class="meta"><li>Language: Python</li><li>Status: Active</li></ul>
+        <h2><a href="https://github.com/nhu92/HiCassembly">HiCassembly</a></h2>
+        <p>HiCassembly is a pipeline for genome assembly using Hi‑C data via Flye, 3D‑DNA and polishing tools.</p>
+        <ul class="meta"><li>Language: Shell &amp; Python</li><li>Status: Active</li></ul>
       </article>
+      <!-- Homologous Annotation Pipeline project card -->
       <article class="card">
-        <h2><a href="https://github.com/YOUR/PROJECT2">PROJECT 2</a></h2>
-        <p>Short description; link to docs.</p>
-        <ul class="meta"><li>Language: R</li><li>License: MIT</li></ul>
+        <h2><a href="https://github.com/nhu92/HomologousAnnotationPipeline">Homologous Annotation Pipeline</a></h2>
+        <p>This pipeline uses Liftoff to annotate genomes and includes R scripts for plotting synteny and analysing homologs.</p>
+        <ul class="meta"><li>Language: Python &amp; R</li><li>Status: Active</li></ul>
+      </article>
+      <!-- Fingerable project card -->
+      <article class="card">
+        <h2><a href="https://github.com/nhu92/Fingerable">Fingerable</a></h2>
+        <p>Fingerable is an R&nbsp;Shiny app that analyses gene combinations to assess species identification ability and visualizes statistical results.</p>
+        <ul class="meta"><li>Language: R</li><li>Status: Prototype</li></ul>
       </article>
     </div>
   </main>
 
   <footer class="site-footer container">
-    <small>© <span id="year"></span> YOUR NAME</small>
+    <small>© <span id="year"></span> Nan Hu</small>
   </footer>
 </body>
 </html>
