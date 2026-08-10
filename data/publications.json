@@ -1,1 +1,157 @@
-data/publications.json
+[
+  {
+    "order": 1,
+    "year": 2026,
+    "type": "preprint",
+    "selected": true,
+    "title": "SPrOUT: A computational and targeted sequencing approach for mixed plant DNA identification with Angiosperms353",
+    "authors": "Hu, N.; Bullock, M.; Jackson, C.; Miller, C.; Hunter, E.; Huff, C.; Handy, S.; Johnson, M.",
+    "venue": "Applications in Plant Sciences, in press",
+    "doi": "10.64898/2026.02.20.707031",
+    "keywords": ["SPrOUT", "Angiosperms353", "mixed DNA", "target sequencing", "plant identification"],
+    "note": "in press"
+  },
+  {
+    "order": 2,
+    "year": 2026,
+    "type": "article",
+    "selected": true,
+    "title": "Low reproductive output suggests hermaphrodites are unlikely to spread in a dioecious hybrid willow population",
+    "authors": "Khanal, A.; Hu, N.; Guo, M.; Gambhir, D.; Olson, M. S.",
+    "venue": "International Journal of Plant Sciences",
+    "doi": "10.1086/738603",
+    "keywords": ["Salix", "willow", "dioecy", "hybridization"]
+  },
+  {
+    "order": 3,
+    "year": 2025,
+    "type": "article",
+    "selected": false,
+    "title": "Multi-omics approaches investigate the bitter flavor in the shoot of Bambusa oldhamii Munro",
+    "authors": "Jiao, Y.; Hu, N.; Xia, H.; Li, X.; Li, J.; Liu, Y.; Wang, J.",
+    "venue": "BMC Plant Biology",
+    "doi": "10.1186/s12870-025-07529-z",
+    "keywords": ["Bambusa", "genomics", "multi-omics"]
+  },
+  {
+    "order": 4,
+    "year": 2025,
+    "type": "article",
+    "selected": true,
+    "title": "Divergence, hybridization, and diversification in an eastern North American willow syngameon",
+    "authors": "Guo, M.; Hu, N.; Feng, G.; Wang, L.; Gambhir, D.; Khanal, A.; Hyden, B.; Smart, L. B.; Sanderson, B. J.; Olson, M. S.",
+    "venue": "New Phytologist",
+    "doi": "10.1111/nph.70469",
+    "keywords": ["Salix", "hybridization", "population genomics", "syngameon"]
+  },
+  {
+    "order": 5,
+    "year": 2025,
+    "type": "article",
+    "selected": true,
+    "title": "Rare recombination in Salix nivalis and the maintenance of homomorphic sex chromosomes in willows",
+    "authors": "Khanal, A.; Hu, N.; Guo, M.; Gambhir, D.; Sanderson, B.; Olson, M. S.",
+    "venue": "American Journal of Botany",
+    "doi": "10.1002/ajb2.70059",
+    "keywords": ["Salix", "sex chromosomes", "recombination"]
+  },
+  {
+    "order": 6,
+    "year": 2025,
+    "type": "article",
+    "selected": false,
+    "title": "Disentangling serial chloroplast captures in willows",
+    "authors": "Gambhir, D.; Sanderson, B. J.; Guo, M.; Hu, N.; Khanal, A.; Cronk, Q.; Ma, T.; Liu, J.; Percy, D. M.; Olson, M. S.",
+    "venue": "American Journal of Botany",
+    "doi": "10.1002/ajb2.70039",
+    "keywords": ["Salix", "chloroplast capture", "phylogenomics"]
+  },
+  {
+    "order": 7,
+    "year": 2023,
+    "type": "article",
+    "selected": true,
+    "title": "Evolution of a ZW sex chromosome system in willows",
+    "authors": "Hu, N.; Sanderson, B. J.; Guo, M.; Feng, G.; Gambhir, D.; Hale, H.; Wang, D.; Hyden, B.; Liu, J.; Smart, L. B.; DiFazio, S. P.; Ma, T.; Olson, M. S.",
+    "venue": "Nature Communications",
+    "doi": "10.1038/s41467-023-42880-5",
+    "keywords": ["Salix", "sex chromosomes", "genome evolution", "ZW"]
+  },
+  {
+    "order": 8,
+    "year": 2023,
+    "type": "article",
+    "selected": true,
+    "title": "Phylogenomics reveals patterns of ancient hybridization and differential diversification that contribute to phylogenetic conflict in willows, poplars, and close relatives",
+    "authors": "Sanderson, B. J.; Gambhir, D.; Feng, G.; Hu, N.; Cronk, Q. C.; Percy, D. M.; Freaner, F. M.; Johnson, M. G.; Smart, L. B.; Keefover-Ring, K.; Yin, T.; Ma, T.; DiFazio, S. P.; Liu, J.; Olson, M. S.",
+    "venue": "Systematic Biology",
+    "doi": "10.1093/sysbio/syad042",
+    "keywords": ["Salicaceae", "phylogenomics", "hybridization", "Populus", "Salix"]
+  },
+  {
+    "order": 9,
+    "year": 2023,
+    "type": "article",
+    "selected": false,
+    "title": "Reproductive sexual dimorphisms in two willow species, Salix exigua Nutt. and Salix nigra Marshall",
+    "authors": "Hu, N.; Hale, H.; Sanderson, B.; Feng, G.; Guo, M.; Gambhir, D.; Olson, M. S.",
+    "venue": "International Journal of Plant Sciences",
+    "doi": "10.1086/726623",
+    "keywords": ["Salix", "sexual dimorphism", "dioecy"]
+  },
+  {
+    "order": 10,
+    "year": 2021,
+    "type": "article",
+    "selected": true,
+    "title": "The nearly complete genome of Ginkgo biloba illuminates gymnosperm evolution",
+    "authors": "Liu, H.; Wang, X.; Wang, G.; Cui, P.; Wu, S.; Ai, C.; Hu, N.; Li, A.; He, B.; Shao, X.; Wu, Z.; Feng, H.; Chang, Y.; Mu, D.; Hou, J.; Dai, X.; Yin, T.; Ruan, J.; Cao, F.",
+    "venue": "Nature Plants",
+    "doi": "10.1038/s41477-021-00933-x",
+    "keywords": ["Ginkgo", "genome assembly", "gymnosperm evolution"]
+  },
+  {
+    "order": 11,
+    "year": 2021,
+    "type": "article",
+    "selected": false,
+    "title": "Sex determination through X-Y heterogamety in Salix nigra",
+    "authors": "Sanderson, B. J.; Feng, G.; Hu, N.; Carlson, C. H.; Smart, L. B.; Keefover-Ring, K.; Yin, T.; Ma, T.; Liu, J.; DiFazio, S. P.; Olson, M. S.",
+    "venue": "Heredity",
+    "doi": "10.1038/s41437-020-00397-3",
+    "keywords": ["Salix", "sex determination", "XY"]
+  },
+  {
+    "order": 12,
+    "year": 2019,
+    "type": "article",
+    "selected": false,
+    "title": "Analyzing and characterizing the chloroplast genome of Salix wilsonii",
+    "authors": "Chen, Y.; Hu, N.; Wu, H.",
+    "venue": "BioMed Research International",
+    "doi": "10.1155/2019/5190425",
+    "keywords": ["Salix", "chloroplast genome"]
+  },
+  {
+    "order": 13,
+    "year": 2016,
+    "type": "article",
+    "selected": false,
+    "title": "Genetic identification of 43 elite clonal accessions of Populus deltoides by SSR fingerprinting",
+    "authors": "Liu, H.; Yang, W.; Hou, J.; Hu, N.; Yin, T.; Li, S.",
+    "venue": "Canadian Journal of Plant Science",
+    "doi": "10.1139/cjps-2015-0272",
+    "keywords": ["Populus", "SSR", "fingerprinting"]
+  },
+  {
+    "order": 14,
+    "year": 2015,
+    "type": "article",
+    "selected": false,
+    "title": "Genetic map construction and detection of genetic loci underlying segregation distortion in an intraspecific cross of Populus deltoides",
+    "authors": "Zhou, W.; Tang, Z.; Hou, J.; Hu, N.; Yin, T.",
+    "venue": "PLOS ONE",
+    "doi": "10.1371/journal.pone.0126077",
+    "keywords": ["Populus", "genetic map", "segregation distortion"]
+  }
+]

@@ -3,34 +3,75 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CV – Nan Hu, PhD</title>
+  <title>CV | Nan Hu, Ph.D.</title>
+  <meta name="description" content="Curriculum vitae for Nan Hu, Ph.D." />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/assets/styles.css" />
+  <script defer src="/assets/scripts.js"></script>
 </head>
-<body>
-  <header class="site-header container">
-    <nav class="nav" aria-label="Primary">
-      <a class="brand" href="/">Nan Hu, PhD</a>
-      <ul class="menu">
+<body data-page="cv">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="/">Nan Hu</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation" aria-controls="menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="menu" class="menu">
+        <li><a href="/">Home</a></li>
         <li><a href="/publications.html">Publications</a></li>
         <li><a href="/projects.html">Projects</a></li>
-        <li><a aria-current="page" href="/cv.html">CV</a></li>
-        <li><button id="themeToggle" class="theme-toggle" aria-label="Toggle theme"></button></li>
+        <li><a href="/cv.html" aria-current="page">CV</a></li>
+        <li><button id="themeToggle" class="theme-toggle" aria-label="Toggle color theme"></button></li>
       </ul>
     </nav>
   </header>
 
-  <main class="container">
-    <h1>Curriculum Vitae</h1>
-    <p><a class="button" href="/files/CV.pdf" download>Download PDF</a></p>
-    <object data="/files/CV.pdf" type="application/pdf" width="100%" height="900" aria-label="Embedded CV PDF">
-      <p>Your browser can’t display PDFs. <a href="/files/CV.pdf">Download the CV</a>.</p>
-    </object>
+  <main id="main" class="container page-layout">
+    <section class="page-heading cv-heading">
+      <div>
+        <p class="section-kicker">Curriculum Vitae</p>
+        <h1>Nan Hu, Ph.D.</h1>
+        <p id="cvIntro">Postdoctoral Research Associate at JIFSAN / University of Maryland.</p>
+      </div>
+      <a class="button" href="/files/CV.pdf" download>Download PDF</a>
+    </section>
+
+    <section class="cv-grid" aria-label="CV highlights">
+      <div>
+        <h2>Appointments</h2>
+        <div class="timeline" id="appointmentsList"></div>
+      </div>
+      <div>
+        <h2>Education</h2>
+        <div class="timeline" id="educationList"></div>
+      </div>
+      <div>
+        <h2>Teaching and Mentoring</h2>
+        <ul class="plain-list" id="teachingList"></ul>
+      </div>
+      <div>
+        <h2>Selected Recognition</h2>
+        <ul class="plain-list" id="awardList"></ul>
+      </div>
+    </section>
+
+    <section class="pdf-panel" aria-labelledby="pdf-title">
+      <div class="section-heading compact">
+        <p class="section-kicker">Full CV</p>
+        <h2 id="pdf-title">PDF Preview</h2>
+      </div>
+      <object data="/files/CV.pdf" type="application/pdf" width="100%" height="780" aria-label="Embedded CV PDF">
+        <p>Your browser cannot display PDFs. <a href="/files/CV.pdf">Download the CV</a>.</p>
+      </object>
+    </section>
   </main>
 
-  <footer class="site-footer container">
-    <small>© <span id="year"></span> Nan Hu</small>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>&copy; <span id="year"></span> Nan Hu</small>
+      <small><a href="https://github.com/nhu92/nhu92.github.io">Source on GitHub</a></small>
+    </div>
   </footer>
-  <script defer src="/assets/scripts.js"></script>
 </body>
 </html>

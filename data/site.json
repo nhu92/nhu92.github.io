@@ -1,0 +1,187 @@
+{
+  "profile": {
+    "name": "Nan Hu",
+    "displayName": "Nan Hu, Ph.D.",
+    "title": "Postdoctoral Research Associate",
+    "affiliation": "JIFSAN / University of Maryland",
+    "location": "College Park, Maryland",
+    "email": "nhu@umd.edu",
+    "summary": "I develop genomic and computational approaches for understanding plant diversity, from willow sex chromosome evolution to mixed-sample plant DNA identification.",
+    "researchStatement": "My research connects evolutionary genomics with applied bioinformatics. I use target sequencing, population genomics, phylogenetic inference, and reproducible pipelines to study how plant genomes change and how genome-scale data can improve species identification, biodiversity monitoring, and botanical research.",
+    "cvIntro": "Postdoctoral Research Associate at JIFSAN / University of Maryland, working on plant genomics, mixed plant DNA identification, and computational tools for biodiversity research.",
+    "stats": [
+      {
+        "label": "Current Role",
+        "value": "Postdoctoral Research Associate, UMD/JIFSAN"
+      },
+      {
+        "label": "Research Core",
+        "value": "Plant genomics and computational biology"
+      },
+      {
+        "label": "Methods",
+        "value": "Target sequencing, phylogenomics, population genomics"
+      }
+    ],
+    "links": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=kI2ire8AAAAJ&hl=en&authuser=1"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0002-7032-0558"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/nhu92"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nan-hu-853632154/"
+      }
+    ]
+  },
+  "researchAreas": [
+    {
+      "title": "Mixed Plant DNA Identification",
+      "summary": "I develop pipelines for identifying species in complex plant DNA mixtures, including processed botanical materials, herbal products, mock communities, and environmental samples.",
+      "tags": ["SPrOUT", "Angiosperms353", "eDNA"]
+    },
+    {
+      "title": "Plant Sex Chromosome Evolution",
+      "summary": "My doctoral work used comparative and population genomics to reconstruct repeated sex-determination transitions in willows, including an XY-to-ZW transition.",
+      "tags": ["Salix", "sex chromosomes", "comparative genomics"]
+    },
+    {
+      "title": "Hybridization and Diversification",
+      "summary": "I study how ancient hybridization, chloroplast capture, and population history shape evolutionary conflict and diversification in willows, poplars, and relatives.",
+      "tags": ["Salicaceae", "phylogenomics", "population genetics"]
+    },
+    {
+      "title": "Open Botanical Workflows",
+      "summary": "I build reusable workflows for genome assembly, annotation transfer, marker discovery, species-tree inference, and teaching computational population genetics.",
+      "tags": ["Python", "Bash", "R"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SPrOUT",
+      "url": "https://github.com/nhu92/SPrOUT",
+      "summary": "A computational pipeline for predicting species taxonomic information from single and mixed plant samples using target sequencing arrays and Angiosperms353.",
+      "role": "Lead developer",
+      "status": "Active",
+      "tags": ["Python", "Bash", "HybPiper", "Angiosperms353"],
+      "featured": true
+    },
+    {
+      "name": "HiCassembly",
+      "url": "https://github.com/nhu92/HiCassembly",
+      "summary": "A practical workflow for plant genome assembly using long reads, polishing tools, Juicer, 3D-DNA, and Hi-C signal review.",
+      "role": "Developer",
+      "status": "Research workflow",
+      "tags": ["genome assembly", "Hi-C", "long reads"],
+      "featured": true
+    },
+    {
+      "name": "Homologous Annotation Pipeline",
+      "url": "https://github.com/nhu92/HomologousAnnotationPipeline",
+      "summary": "Annotation transfer and comparative genomics notes using Liftoff, GFF3 files, synteny plotting, synonymous sites, nonsynonymous sites, and dS calculations.",
+      "role": "Developer",
+      "status": "Research workflow",
+      "tags": ["annotation", "synteny", "R"],
+      "featured": true
+    },
+    {
+      "name": "SDR Mapping Project",
+      "url": "https://github.com/nhu92/SDRmapping",
+      "summary": "Population genomic scripts for mapping sex-determination regions, including read mapping, variant calling, FST scans, phasing, and X/Y haplotype analysis.",
+      "role": "Developer",
+      "status": "Research workflow",
+      "tags": ["Salix", "SDR", "population genomics"],
+      "featured": false
+    },
+    {
+      "name": "Target Sequencing Phylogenetics",
+      "url": "https://github.com/nhu92/targetseqphylo",
+      "summary": "Notes and workflow material for reconstructing species trees from gene trees using target sequencing data.",
+      "role": "Author",
+      "status": "Training material",
+      "tags": ["target sequencing", "species trees"],
+      "featured": false
+    },
+    {
+      "name": "Molecular Population Genetics 2021",
+      "url": "https://github.com/nhu92/popgen2021",
+      "summary": "Course materials for Advanced Molecular Population Genetics, including tutorials on HWE, variation, recombination, population structure, and selection.",
+      "role": "Co-author",
+      "status": "Teaching material",
+      "tags": ["teaching", "R", "population genetics"],
+      "featured": false
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-07",
+      "dateLabel": "Jul 2026",
+      "text": "Updated CV with current postdoctoral work at JIFSAN / University of Maryland and recent publications."
+    },
+    {
+      "date": "2026",
+      "dateLabel": "2026",
+      "text": "SPrOUT is in press in Applications in Plant Sciences and available as an open GitHub workflow."
+    },
+    {
+      "date": "2026",
+      "dateLabel": "2026",
+      "text": "Invited speaker for Botany 2026 on Angiosperms353 and fine-scale genetic resolution."
+    }
+  ],
+  "cv": {
+    "appointments": [
+      {
+        "date": "Jan 2025 - Present",
+        "title": "Postdoctoral Research Associate",
+        "organization": "University of Maryland / JIFSAN, College Park",
+        "detail": "Plant genomics and mixed plant DNA identification with collaborators at UMD and FDA."
+      },
+      {
+        "date": "Aug 2023 - Dec 2024",
+        "title": "Postdoctoral Research Associate",
+        "organization": "Texas Tech University, Lubbock",
+        "detail": "Improving detection of plant contaminants in mixed samples using target sequencing, genome skimming, and population genetics."
+      }
+    ],
+    "education": [
+      {
+        "date": "2017 - 2023",
+        "title": "Ph.D. in Biology",
+        "organization": "Texas Tech University",
+        "detail": "Dissertation: Sex chromosome evolution in willows (Salix spp.)."
+      },
+      {
+        "date": "2014 - 2017",
+        "title": "M.S. in Forest Genetics",
+        "organization": "Nanjing Forestry University",
+        "detail": "Thesis: Organelle genome assembly of Salix wilsonii."
+      },
+      {
+        "date": "2010 - 2014",
+        "title": "B.S. in Forestry",
+        "organization": "Nanjing Forestry University",
+        "detail": "Thesis on wood-property variance in a Salix suchowensis F1 offspring population."
+      }
+    ],
+    "teaching": [
+      "Designed and led target sequencing workshop sessions for bioinformatics learners.",
+      "Course coordinator for Plant Biology at Texas Tech University.",
+      "Teaching assistant for Biology I/II, Plant Biology, Population Genetics, Organic Evolution, and Genetics.",
+      "Mentored graduate and undergraduate students on phylogenetics, mixed DNA identification, and marker design."
+    ],
+    "awards": [
+      "Biology Teaching Scholar, Texas Tech University.",
+      "First Prize in Plant Science, Texas Tech Graduate School Poster Presentation Competition.",
+      "Graduate Research Support Funding, Texas Tech University."
+    ]
+  }
+}
