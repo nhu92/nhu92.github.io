@@ -1,8 +1,9 @@
 const page = document.body.dataset.page;
+const contentVersion = "20260810-2";
 
 const routes = {
-  site: "/data/site.json",
-  publications: "/data/publications.json"
+  site: `/data/site.json?v=${contentVersion}`,
+  publications: `/data/publications.json?v=${contentVersion}`
 };
 
 function qs(selector, root = document) {
